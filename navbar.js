@@ -6,6 +6,6 @@ export const navbar = `
     <li><a href="/Games2/Adventure/gamesadventure.html">Adventure</a></li>
     <li><a href="/Games2/contact/contact1.html">Contact</a></li>
   </ul>
-  
+  <img src="stars.png">
 </header>
 `;
