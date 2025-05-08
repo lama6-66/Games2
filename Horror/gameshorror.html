@@ -10,15 +10,11 @@
 
     <div id="navbar-placeholder"></div>
 
-    <script>
-       fetch('../navbar.html')
-  .then(response => response.text())
-  .then(data => {
-    console.log("Navbar loaded!");
-    document.getElementById("navbar-placeholder").innerHTML = data;
-  })
-  .catch(error => console.error('Error fetching navbar:', error));
-    </script>
+    <script type="module">    
+      import {navbar} from '../navbar.js';
+      document.getElementById("navbar-navbar-placeholder").innerHTML=navbar;
+
+   </script>
 <h1>lll</h1>
 </body>
 

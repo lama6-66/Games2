@@ -10,14 +10,11 @@
 
     <div id="navbar-placeholder"></div>
 
-    <script>
-        fetch('../navbar.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("navbar-placeholder").innerHTML = data;
-            })
-            .catch(error => console.error('Error fetching navbar:', error));
-    </script>
+    <<script type="module">    
+        import {navbar} from '../navbar.js';
+        document.getElementById("navbar-navbar-placeholder").innerHTML=navbar;
+ 
+     </script>
 <h1 >kkk</h1>
 </body>
 
