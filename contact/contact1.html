@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="c1.css">
+</head>
+
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        fetch('../navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar-placeholder").innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching navbar:', error));
+    </script>
+<h1 >kkk</h1>
+</body>
+
+</html>
