@@ -8,16 +8,21 @@
 
 body{
 
-background: linear-gradient(#0d0d0d,#584599),url("stars.png");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
+background: linear-gradient(#0d0d0d,#584599);
+
 height: 100vh;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 
+
+}
+
+body img{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
 
 }
 
