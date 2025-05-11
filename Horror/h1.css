@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -13,7 +14,7 @@
     align-items: center;
     height: 400px;
     flex-wrap: wrap;
-
+     
 
 }
 
@@ -24,6 +25,7 @@ width: 300px;
 background: #584599;
 margin: 40px;
 border-radius: 20px;
+
 
 
 
@@ -38,12 +40,19 @@ border-radius: 20px;
     background: white;
     margin: 20px;
     transition: transform 0.3s ease;
+    position: relative;
+    
+    
 
 }
 
 .card:hover{
 
     transform: scale(1.05);
+    border-style:dashed;
+    border-width: 6px;
+    border-color:  #7e7795;
+    
 }
 
 .card img{
@@ -56,13 +65,21 @@ border-radius: 20px;
 .card-container{
 
     padding: 15px;
-    display: none;
+    position:  absolute;
     bottom: 0;
-    left: 0;
     background-color: blue;
     width: 100%;
+    visibility: hidden;
    
     
+       
+    
+
+}
+
+.card:hover .card-container{
+
+visibility: visible;
 
 }
 
@@ -82,7 +99,7 @@ border-radius: 20px;
 
 .bth{
 
-    display: inline-block;
+    
     padding: 8px 16px;
     background-color: brown;
     text-decoration: none;
@@ -93,4 +110,11 @@ border-radius: 20px;
 
 .bth:hover{
     background-color: blueviolet;
+}
+
+a{
+
+    width: 10px;
+    height: 10px;
+  
 }

@@ -8,20 +8,33 @@
 
 body{
 
-background: linear-gradient(#0d0d0d,#584599);
+    background: linear-gradient(#0d0d0d,#584599);
 
-min-height: 100vh;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+   
+     
 
 }
+
+/* #lama{
+
+    background-image: url("stars.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+} */
+
+
+
 
 a{
 
  text-decoration: none;  
  color: aliceblue; 
+ 
 }
 
 header{
@@ -30,6 +43,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin: 20px;
+cursor:  default;
+
 
 }
 
@@ -42,7 +57,7 @@ font-size: 20px;
 ul{
 
     display: flex;
-    justify-content: center;
+    background-attachment: fixed;
     list-style: none;
 }
 
@@ -59,5 +74,8 @@ li a:hover{
 
     background: #8a85dc;
     color: #000;
+    border-width: 3px;
+    border-color:  #584599;
+    border-style:dashed;
 
 }

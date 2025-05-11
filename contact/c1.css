@@ -1,0 +1,65 @@
+.container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px;
+height: 100vh;
+
+}
+
+
+.contact22{
+
+width: 500px;
+height: 500px;
+background: #584599;
+border-radius: 30px;
+border-style:dashed;
+border-width: 6px;
+border-color:  #7e7795;
+
+
+
+
+
+}
+
+.contact22:hover{
+
+    transform: scale(1.05);
+}
+
+.form{
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 30px;
+padding: 15px;
+
+
+}
+
+input,textarea{
+    
+    padding: 10px;
+    width: 450px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+h2{
+color: aliceblue;
+
+
+    
+}
+
+
+
+
+
