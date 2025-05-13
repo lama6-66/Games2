@@ -1,0 +1,56 @@
+
+
+.voide{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.content{
+
+text-align: center;
+/* z-index: 1;
+position: relative; */
+
+
+}
+
+.content h1{
+
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+
+.content a{
+color: #584599;
+width: 100px;
+height: 40px;
+/* padding: 10px 15px; */
+border: 6px;
+bordr-color:  #584599;
+border-style:dashed;
+
+border-radius: 15px;
+font-size: 30px;
+/* display: inline-block; */
+
+
+}
+
+
+.background-clip{
+
+    position: absolute;
+    top: 0; 
+    width: 100%;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
