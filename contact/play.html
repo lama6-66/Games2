@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>play</title>
+    <link rel="stylesheet" href="c1.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body >
+
+     <div id="navbar-placeholder"></div>
+
+  
+
+  
+
+
+<div class="play">
+
+    <h1>
+        Choose the right game
+    </h1>
+    <span id="game">0</span>
+    <button id="chooes">enter</button>
+
+</div>
+
+
+<script type="module" src="../load-navbar.js"></script>
+
+  <script >
+
+    
+     let  game=document.getElementById("game");
+     let  bouut=document.getElementById("chooes");
+
+     let gamelist=[
+
+       "lama",
+       "safa",
+       "alotaibi"
+
+     ]
+
+    let randomgame = () => {
+
+        let randomgamer=Math.floor(Math.random()*gamelist.length);
+        game.textContent = gamelist[randomgamer];
+
+        // console.log(randomgamer[randomgame])
+    }
+
+    bouut.addEventListener('click',randomgame)
+
+
+     
+
+    </script>
+
+</body>
+
+</html>

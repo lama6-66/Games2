@@ -1,49 +1,50 @@
-.container{
+.container {
 
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 20px;
-height: 100vh;
-
-}
-
-
-.contact22{
-
-width: 500px;
-height: 500px;
-background: #584599;
-border-radius: 30px;
-border-style:dashed;
-border-width: 6px;
-border-color:  #7e7795;
-
-
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 100vh;
 
 }
 
-.contact22:hover{
+
+.contact22 {
+
+    width: 500px;
+    height: 500px;
+    background: #584599;
+    border-radius: 30px;
+    border-style: dashed;
+    border-width: 6px;
+    border-color: #7e7795;
+
+
+
+
+
+}
+
+.contact22:hover {
 
     transform: scale(1.05);
 }
 
-.form{
+.form {
 
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 30px;
-padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 15px;
 
 
 }
 
-input,textarea{
-    
+input,
+textarea {
+
     padding: 10px;
     width: 450px;
     background-color: transparent;
@@ -52,14 +53,56 @@ input,textarea{
     border-color: aliceblue;
 }
 
-h2{
-color: aliceblue;
+h2 {
+    color: aliceblue;
 
 
-    
+
 }
 
 
+/* ------------------ */
+
+
+/* .div{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #584599;
+  width: 500px;
+  height: 500px;  
+} */
 
 
 
+.play {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 500px;
+    height: 500px;
+
+    margin: auto;
+    
+
+    background: #584599;
+    border-radius: 30px;
+    border-style: dashed;
+    border-width: 6px;
+    border-color: #7e7795;
+}
+
+span {
+
+    font-size: 70px;
+}
+
+#chooes {
+
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+}
