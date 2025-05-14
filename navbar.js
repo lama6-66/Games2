@@ -7,7 +7,7 @@ export const navbar = `
     <li><a href="/Games2/Horror/gameshorror.html">Horror</a></li>
     <li><a href="/Games2/Adventure/gamesadventure.html">Adventure</a></li>
     <li><a href="/Games2/contact/contact1.html">Contact</a></li>
-    <li><a href="/Games2/contact/play.html">play</a></li>
+    
   </ul>
  
 </header>

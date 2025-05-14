@@ -11,8 +11,8 @@
 
 .contact22 {
 
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background: #584599;
     border-radius: 30px;
     border-style: dashed;
@@ -84,7 +84,7 @@ h2 {
     width: 500px;
     height: 500px;
 
-    margin: auto;
+    margin: 20px;
     
 
     background: #584599;
