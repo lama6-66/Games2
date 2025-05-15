@@ -83,7 +83,7 @@ h2 {
     gap: 70px;
     width: 500px;
     height: 500px;
-
+    color: aliceblue;
     margin: auto;
     
 
@@ -96,7 +96,7 @@ h2 {
 
 span {
 
-    font-size: 70px;
+    font-size: 40px;
 }
 
 #chooes {
@@ -105,6 +105,8 @@ span {
     height: 40px;
     font-size: 20px;
     border-radius: 15px;
+    background-color: #8a85dc;
+    color: aliceblue;
 }
 
 @media(max-width: 600px){
@@ -130,6 +132,8 @@ textarea {
     .play{
 
      width: 340px;
+    
+     text-align: center;
      
 
     }

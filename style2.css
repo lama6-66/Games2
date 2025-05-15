@@ -24,22 +24,32 @@ position: relative; */
 
     color: aliceblue;
     margin-bottom: 50px;
+    
 }
 
 .content a{
-color: #584599;
-width: 100px;
-height: 40px;
+color: aliceblue;
+
 /* padding: 10px 15px; */
 border: 6px;
-bordr-color:  #584599;
-border-style:dashed;
 
+background-color:#8a85dc ;
+padding: 15px ;
+margin: 10px;
 border-radius: 15px;
-font-size: 30px;
+font-size: 25px;
 /* display: inline-block; */
 
 
+}
+
+.content a:hover{
+
+   background: #8a85dc;
+    
+    border-width: 3px;
+    bordr-color:  #584599;
+    border-style:dashed; 
 }
 
 

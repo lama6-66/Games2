@@ -73,7 +73,7 @@ li a{
 li a:hover{
 
     background: #8a85dc;
-    color: #000;
+   
     border-width: 3px;
     bordr-color:  #584599;
     border-style:dashed;
@@ -81,6 +81,35 @@ li a:hover{
 }
 
 
+ .menu-toggle{
+
+    display: none;
+ }
 
 
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    color: #584599;
+    font-size: 30px;
+    
+  }
 
+  ul {
+    flex-direction: column;
+    background-color:  #584599;
+    z-index: 1;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 200px;
+    gap: 30px;
+    display: none;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  #navbar-links.active {
+    display: flex !important;
+  }
+}
