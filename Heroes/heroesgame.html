@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Horror</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="ch.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+
+
+    <div id="navbar-placeholder"></div>
+
+    <script type="module" src="../load-navbar.js">
+
+
+    </script>
+
+
+
+    <div class="container">
+
+        <div class="heroesname">
+
+            <h1>
+                VENOM
+            </h1>
+
+            <p>
+                Venom, a ferocious creature from the Spider-Man universe! A combination of strength and madness, his
+                voice alone when he says "I am Venom" is enough to frighten opponents!
+
+            </p>
+        </div>
+
+
+
+
+        <div class="heroesch">
+
+            <img src="venom.png" class="img">
+            <audio class="voies" src="venomvoies.mp3"></audio>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="heroesname">
+
+            <h1>
+                SNAKE
+            </h1>
+
+            <p>
+                A super spy on dangerous infiltration missions, known for his calm demeanor and his catchphrase: "Kept
+                you waiting, huh?
+            </p>
+        </div>
+
+
+
+
+        <div class="heroesch">
+
+            <img src="snake.png" class="img">
+            <audio class="voies" src="snakevoies.mp3"></audio>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="heroesname">
+
+            <h1>
+                SCORPION
+            </h1>
+
+            <p>
+                A fiery fighter from Mortal Kombat, he uses a barbed wire and shouts his famous line: Get over here!
+            </p>
+        </div>
+
+
+
+
+        <div class="heroesch">
+
+            <img src="scorpion.png" class="img">
+            <audio class="voies" src="scorpionvoies.mp3"></audio>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="heroesname">
+
+            <h1>
+                LEON KENNEDY
+            </h1>
+
+            <p>
+                Leon, the horror and action hero of Resident Evil 4! He's confident and funny, even among the zombies!
+                He's saved the world more than once!
+
+            </p>
+        </div>
+
+
+
+
+        <div class="heroesch">
+
+            <img src="leon.png" class="img">
+            <audio class="voies" src="leonvoies.mp3"></audio>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+    <script>
+
+        document.querySelectorAll(".img").forEach((img, index) => {
+            img.addEventListener("click", () => {
+                const audios = document.querySelectorAll(".voies");
+                audios[index].play();
+
+            });
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>
