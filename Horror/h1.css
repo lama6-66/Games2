@@ -34,12 +34,12 @@ border-radius: 20px;
 
 .card{
 
-    width: 300px;
+    /* width: 300px; */
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background: white;
-    margin: 20px;
+    /* background: white; */
+    /* margin: 20px; */
     transition: transform 0.3s ease;
     position: relative;
     
@@ -70,25 +70,27 @@ border-radius: 20px;
     bottom: 0;
     left: 0;
     right: 0;
-
     z-index: 1;
     
     width: 100%;
-    padding: 16px;
+    
+    /* padding: 16px; */
     visibility: hidden;
     background: rgba(0, 0, 0, 0.5);
-    /* gap: 300px; */
+    /* gap: 300px;  */
     
-   /* display: flex;
+   display: flex;
    flex-direction: column;
 
    justify-content: flex-end;
-   align-items: center; */
+   align-items: center;
     
        
    
 
 }
+
+
 
 .card:hover .card-container{
 
@@ -97,39 +99,40 @@ visibility: visible;
 
 }
 
-.card-container h3{
+/* .card-container h3{
     margin-bottom: 10px;
     font-size: 20px;
-    color: azure;
+    
     width: 20px;
     
-}
+} */
 
-.card-container p{
+/* .card-container p{
 
     color: blue;
     font-size: 15px;
     margin-bottom:15px ;
-}
+} */
 
 .bth{
 
     
     padding: 8px 16px;
-    background-color: brown;
+    background-color: #584599;
     text-decoration: none;
-    margin-top: 20px;
-    margin-left: px;
-    color: aliceblue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 120px;
+    height: 40px;
+     border-radius: 15px;
+     margin-right: 100px;
+    
+     
 }
 
 .bth:hover{
-    background-color: blueviolet;
+    background-color: #8a85dc;
 }
 
-a{
-
-    width: 10px;
-    height: 10px;
-  
-}
