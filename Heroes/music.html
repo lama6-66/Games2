@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Horror</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="mu.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+
+
+    <div id="navbar-placeholder"></div>
+
+    <script type="module" src="../load-navbar.js">
+
+
+    </script>
+
+
+
+
+    <div class="warpp">
+        <header class="header">TETRIS</header>
+        <article class="main">
+            <img src="Tetrisimg.jpg">
+        </article>
+
+        <aside class="aside1">
+
+            <h1>Game</h1>
+
+        </aside>
+
+        <aside class="aside2">
+
+            <h1>Puzzle</h1>
+
+        </aside>
+
+        <footer class="footer">
+
+         <h1 class="Listen">  Listen</h1>
+         <audio class="voies" src="Tetris.mp3"></audio>
+        </footer>
+
+    </div>
+
+    <div class="warpp">
+        <header class="header">SUPER MARIO</header>
+        <article class="main">
+            <img src="supcr.jpg">
+        </article>
+
+        <aside class="aside1">
+
+            <h1>Game</h1>
+
+        </aside>
+
+        <aside class="aside2">
+
+            <h1>Advenure</h1>
+
+        </aside>
+
+        <footer class="footer">
+
+         <h1 class="Listen">  Listen</h1>
+         <audio class="voies" src="supcrvoies.mp3"></audio>
+        </footer>
+
+    </div>
+
+
+     <div class="warpp">
+        <header class="header">ZELDA</header>
+        <article class="main">
+            <img src="zelda.jpg">
+        </article>
+
+        <aside class="aside1">
+
+            <h1>Game</h1>
+
+        </aside>
+
+        <aside class="aside2">
+
+            <h1>Action</h1>
+
+        </aside>
+
+        <footer class="footer">
+
+         <h1 class="Listen">  Listen</h1>
+         <audio class="voies" src="zeldavoies.mp3"></audio>
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+        let Listen=document.querySelectorAll(".Listen");
+      
+
+        Listen.forEach((bth, index) => {
+            bth.addEventListener("click", () => {
+                let audios = document.querySelectorAll(".voies");
+                let audio=  audios[index];
+
+                if(audio.paused){
+                    audio.play();
+                }
+                else{
+                    audio.pause();
+                }
+
+            });
+        });
+
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
