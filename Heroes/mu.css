@@ -35,7 +35,7 @@
 
     background: darkslateblue;
     height: 120px;
-    text-align: center;
+    
     font-size: 30px;
 }
 
@@ -50,16 +50,16 @@
   width: 60%;  
 }
 
-.aside1{
+.aside1,.aside2{
 
     background: rgb(105, 91, 194);
     
 }
 
-.aside2{
+/* .aside2{
 
     background: rgb(105, 91, 194);
-}
+} */
  
  
  

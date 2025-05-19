@@ -1,10 +1,4 @@
-*{
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
 
 
 #container{
@@ -12,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    /* height: 400px; */
     flex-wrap: wrap;
      
 
@@ -35,9 +29,9 @@ border-radius: 20px;
 .card{
 
     /* width: 300px; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: rgba(0, 0, 0, 0.2); */
     /* background: white; */
     /* margin: 20px; */
     transition: transform 0.3s ease;
@@ -68,8 +62,8 @@ border-radius: 20px;
     
     position:  absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
     z-index: 1;
     
     width: 100%;
@@ -119,11 +113,11 @@ visibility: visible;
     
     padding: 8px 16px;
     background-color: #584599;
-    text-decoration: none;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 120px;
     height: 40px;
      border-radius: 15px;

@@ -3,7 +3,7 @@
 
 <head>
     <title>play</title>
-    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <link rel="stylesheet" href="c1.css">
     <link rel="stylesheet" href="../style.css">
@@ -16,19 +16,21 @@
   
 
   
+ <div class="containerplay">
 
 
 <div class="play">
 
     <h1>
-        Choose the right game
+        Spin the games find your fate
     </h1>
-    <span id="game">0</span>
+    <span id="game">Game</span>
     <button id="chooes">Play</button>
 
     <img src="">
 
 </div>
+ </div>
 
 
 <script type="module" src="../load-navbar.js"></script>
@@ -57,7 +59,7 @@
     let randomgame = () => {
 
         let randomgamer=Math.floor(Math.random()*gamelist.length);
-        game.textContent = gamelist[randomgamer];
+        game.innerHTML = gamelist[randomgamer];
 
         // console.log(randomgamer[randomgame])
     }

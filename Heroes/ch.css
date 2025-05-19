@@ -41,15 +41,14 @@ flex-wrap: wrap;
 }
 
 .heroesname p{
-margin-top: 0;
-line-height: 1.6;
+line-height: 1.8;
 
 }
 
 img{
 width: 100%;
 max-width: 400px;
-cursor: pointer;
+cursor: grab;
 transition: transform(0.3s);
 
 }

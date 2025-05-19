@@ -1,4 +1,4 @@
-.container {
+.container,.containerplay {
 
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
     border-style: dashed;
     border-width: 6px;
     border-color: #7e7795;
-
+    transition: transform 0.3s ease;
 
 
 
@@ -34,10 +34,10 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    
     align-items: flex-start;
     gap: 30px;
-    padding: 15px;
+    padding: 30px;
 
 
 }
@@ -53,12 +53,8 @@ textarea {
     border-color: aliceblue;
 }
 
-h2 {
-   
 
 
-
-}
 
 
 /* ------------------ */
